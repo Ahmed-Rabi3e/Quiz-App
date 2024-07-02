@@ -1,5 +1,12 @@
 import axios from "axios";
-import { useState, useContext, createContext, ReactNode, ChangeEvent, FormEvent } from "react";
+import {
+  useState,
+  useContext,
+  createContext,
+  ReactNode,
+  ChangeEvent,
+  FormEvent,
+} from "react";
 
 interface TableProps {
   sports: number;
@@ -41,7 +48,7 @@ interface AppContextProps {
   closeModal: () => void;
   quiz: QuizProps;
   handleChange: (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
-  handleSubmit: (e: FormEvent<HTMLFormElement>) => void;
+  handleSubmit: (e: FormEvent<HTMLFormElement | HTMLButtonElement>) => void;
 }
 
 const API_ENDPOINT = "https://opentdb.com/api.php?";
@@ -112,12 +119,14 @@ const AppProvider = ({ children }: { children: ReactNode }) => {
     setIsModalOpen(false);
   };
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setQuiz({ ...quiz, [name]: value });
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement | HTMLButtonElement>) => {
     e.preventDefault();
     const { amount, category, difficulty } = quiz;
     const categoryValue = table[category];
