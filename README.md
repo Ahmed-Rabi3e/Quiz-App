@@ -1,6 +1,8 @@
 #  Quiz-App ( React - TypeScript - Tailwind CSS - Vite - Context API )
 
-<img src="https://github.com/Ahmed-Rabi3e/Advanced-To-Do-List/blob/main/public/Advannced-To-Do-List.png" align="center" width="100%"/>
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%202.png" align="center" width="100%"/>
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%203.png" align="left" width="48%"/>
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%201.png" align="right" width="48%"/>
 
 Overview
 This front-end project aims to create a responsive web application using React.js to provide users with a user-friendly interface for accessing various features and functionalities. The project leverages modern web development technologies to deliver an engaging and interactive user experience.
@@ -26,6 +28,11 @@ React.js: Front-end JavaScript library for building user interfaces.
 Tailwind CSS: styling the web application.
 
 Typescript: make it more dynamic.
+
+Context API: To Manage State and Function All around App.
+
+Axios: a popular JavaScript library used for making HTTP requests from a web browser or Node.js.
+
 
 # Installation
 1. Clone the repo
