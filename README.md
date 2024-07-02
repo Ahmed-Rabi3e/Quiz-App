@@ -1,30 +1,57 @@
-# React + TypeScript + Vite
+#  Quiz-App ( React - TypeScript - Tailwind CSS - Vite - Context API )
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%202.png" align="center" width="100%"/>
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%203.png" align="left" width="48%"/>
+<img src="https://github.com/Ahmed-Rabi3e/Quiz-App/blob/main/public/Screenshot%201.png" align="right" width="48%"/>
 
-Currently, two official plugins are available:
+Overview
+This front-end project aims to create a responsive web application using React.js to provide users with a user-friendly interface for accessing various features and functionalities. The project leverages modern web development technologies to deliver an engaging and interactive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
+Responsive Design: Ensure responsiveness across different devices and screen sizes to enhance accessibility.
 
-## Expanding the ESLint configuration
+Interactive Components: Incorporate interactive components such as forms, buttons, and models to enhance user engagement.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Data Visualization: Utilize data visualization libraries or custom components to present data in an intuitive and visually appealing manner.
 
-- Configure the top-level `parserOptions` property like this:
+State Management: Utilize state management libraries such as Redux or Context API to manage application state and data flow efficiently.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Error Handling: Implement robust error handling mechanisms to provide users with informative error messages and enhance application reliability.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Optimized Performance: Optimize application performance through code optimization, lazy loading, and caching strategies to ensure fast load times and smooth user experience.
+
+Testing: Conduct comprehensive testing using testing frameworks such as Jest and React Testing Library to ensure the reliability and quality of the application.
+
+# Technologies Used
+React.js: Front-end JavaScript library for building user interfaces.
+
+Tailwind CSS: styling the web application.
+
+Typescript: make it more dynamic.
+
+Context API: To Manage State and Function All around App.
+
+Axios: a popular JavaScript library used for making HTTP requests from a web browser or Node.js.
+
+
+# Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Ahmed-Rabi3e/Advanced-To-Do-List.git
+   ```
+2. Install NPM packages
+   ```sh
+   cd my-project-name
+   
+   npm install
+   ```
+3. Start the Local Host
+   ```js
+   npm run dev
+   ```
+
+Contribution
+Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please submit a pull request or open an issue on GitHub.
+
+License
+This project is licensed under the MIT License.
